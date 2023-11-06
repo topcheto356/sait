@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js" type="module" defer></script>
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
@@ -28,19 +28,21 @@
                         <h1>Orientirova4i</h1>
                     </div>
                     <div class="menu-items">
-                        <li><a href="/">Начало</a></li>
-                        <li><a href="/tracking">Какво е ориентиране</a></li>
-                        <li><a href="/club-info">За Клуба</a></li>
-                        <li><a href="/training">Тренировки</a></li>
-                        <li><a href="/galery">Галерия</a></li>
-                        <li><a href="/contacts">Контакти</a></li>
+                        <!-- <li><a href="/">Начало</a></li> -->
+                        <!-- <li><a href="/tracking">Какво е ориентиране</a></li> -->
+                        <li data-route="/tracking" class="router-link">Какво е ориентиране</li>
+                        <li data-route="/club" class="router-link">За Клуба</li>
+                        <!-- <li><a href="/club-info">За Клуба</a></li> -->
+                        <!-- <li><a href="/training">Тренировки</a></li> -->
+                        <!-- <li><a href="/galery">Галерия</a></li> -->
+                        <!-- <li><a href="/contacts">Контакти</a></li> -->
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section></section>
+        <section id="main-content-container"></section>
     </main>
     <footer></footer>
 </body>
