@@ -1,0 +1,43 @@
+.tracking-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+
+.tracking-info {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tracking-info-header {
+  margin-left: 2rem;
+  border-left: 0.5rem solid aqua;
+  /* ako otkomentirash tova stava smeshno */
+  /* padding: 0.2rem; */
+  padding-left: 0.3rem;
+}
+
+.tracking-info-text {
+  font-size: 1.6rem;
+}
+
+.tracking-info-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tracking-image-container {
+  width: 40%;
+  text-align: center;
+}
+
+.tracking-info-image-1 {
+  margin-top: 4rem;
+}
+.tracking-info-image-2 {
+  margin-bottom: 2rem;
+}
