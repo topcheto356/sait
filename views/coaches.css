@@ -1,0 +1,64 @@
+.coaches-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 60%;
+}
+
+.coaches-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.coaches-text-container {
+  max-width: 70%;
+}
+.coaches-info-header {
+  margin-left: 2rem;
+  border-left: 0.5rem solid aqua;
+  /* ako otkomentirash tova stava smeshno */
+  /* padding: 0.2rem; */
+  padding-left: 0.3rem;
+}
+
+.coaches-info-text {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.coaches-info-images {
+  display: flex;
+  gap: 2rem;
+}
+
+.coaches-image-container {
+  width: 40%;
+}
+
+.coaches-info-image {
+  margin-top: 3rem;
+}
+.competitors-info-image {
+  margin-top: 10rem;
+}
+@media only screen and (max-width: 768px) {
+  .coaches-info-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .coaches-info-image,
+  .competitors-info-image {
+    margin: 0;
+  }
+  .coaches-image-container {
+    width: 90%;
+  }
+  .coaches-text-container {
+    max-width: 100%;
+  }
+}
