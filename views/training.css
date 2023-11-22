@@ -1,0 +1,23 @@
+.training-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+
+.training-images-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.training-images-left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+.training-images-right-container {
+  width: 40%;
+  margin-left: auto;
+}
