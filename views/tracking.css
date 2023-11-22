@@ -19,10 +19,12 @@
   /* ako otkomentirash tova stava smeshno */
   /* padding: 0.2rem; */
   padding-left: 0.3rem;
+  margin-bottom: 1rem;
 }
 
 .tracking-info-text {
   font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
 
 .tracking-info-images {
@@ -40,4 +42,31 @@
 }
 .tracking-info-image-2 {
   margin-bottom: 2rem;
+}
+
+.tracking-info-images-2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tracking-image-container-2 {
+  width: 55%;
+}
+.tracking-image-container-3 {
+  width: 45%;
+}
+
+.tracking-info-image-3 {
+  margin-right: auto;
+}
+.tracking-info-image-4 {
+  margin-left: auto;
+}
+
+.tracking-info-image-5 {
+  margin-right: auto;
+}
+.tracking-info-image-6 {
+  margin-top: 3rem;
 }
